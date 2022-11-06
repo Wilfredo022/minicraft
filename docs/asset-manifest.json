@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/static/css/main.f06ef921.chunk.css",
+    "main.js": "/static/js/main.acba7161.chunk.js",
+    "main.js.map": "/static/js/main.acba7161.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.576b2c02.js",
+    "runtime-main.js.map": "/static/js/runtime-main.576b2c02.js.map",
+    "static/js/2.acbaaa07.chunk.js": "/static/js/2.acbaaa07.chunk.js",
+    "static/js/2.acbaaa07.chunk.js.map": "/static/js/2.acbaaa07.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.f06ef921.chunk.css.map": "/static/css/main.f06ef921.chunk.css.map",
+    "static/js/2.acbaaa07.chunk.js.LICENSE.txt": "/static/js/2.acbaaa07.chunk.js.LICENSE.txt",
+    "static/media/diamond.4c255c3c.webp": "/static/media/diamond.4c255c3c.webp",
+    "static/media/dirt.b252523f.webp": "/static/media/dirt.b252523f.webp",
+    "static/media/grass.1e5b1cf1.webp": "/static/media/grass.1e5b1cf1.webp",
+    "static/media/ground.7ef329b8.webp": "/static/media/ground.7ef329b8.webp",
+    "static/media/log.055f25b9.webp": "/static/media/log.055f25b9.webp",
+    "static/media/musgo.3b7bd242.webp": "/static/media/musgo.3b7bd242.webp",
+    "static/media/obsidian.ecf1330f.webp": "/static/media/obsidian.ecf1330f.webp",
+    "static/media/rose.f85f18ce.webp": "/static/media/rose.f85f18ce.webp",
+    "static/media/wood.370cf5fc.webp": "/static/media/wood.370cf5fc.webp"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.576b2c02.js",
+    "static/js/2.acbaaa07.chunk.js",
+    "static/css/main.f06ef921.chunk.css",
+    "static/js/main.acba7161.chunk.js"
+  ]
+}
