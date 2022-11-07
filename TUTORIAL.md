@@ -1,13 +1,1 @@
-- [] Boilerplate
-- [] Sky
-- [] Textures and images
-- [] Ground
-- [] Player
-- [] First person view
-- [] Gravity
-- [] Movement
-- [] State management
-- [] Cubes
-- [] Cube type selector
-- [] Save world in localstorage
-- [] Build a house
+
