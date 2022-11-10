@@ -4,11 +4,14 @@ import { Canvas } from "@react-three/fiber";
 import { Cubes } from "./components/Cubes";
 import { FPV } from "./components/FPV";
 import { Ground } from "./components/Ground";
+import { Help } from "./components/Help";
 import { Menu } from "./components/Menu";
 import { Player } from "./components/Player";
 import { TextureSelector } from "./components/TextureSelector";
+import { useStore } from "./hooks/useStore";
 
 function App() {
+  const [help] = useStore((state) => [state.help]);
   return (
     <>
       <Canvas>
@@ -29,6 +32,7 @@ function App() {
       <div className='absolute centered cursor'>+</div>
       <TextureSelector />
       <Menu />
+      {help ? <Help /> : null}
     </>
   );
 }

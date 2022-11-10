@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
 }
 
 html,
@@ -23,14 +24,12 @@ body {
   position: fixed;
   overflow: hidden;
   overscroll-behavior-y: none;
-  font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir,
-    helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif;
-  font-size: 40px;
 }
 
 .cursor {
   position: relative;
   color: white;
+  font-size: 2rem;
 }
 
 .flex {
@@ -71,7 +70,7 @@ body {
 }
 
 .name-texture {
-  font-size: 0.4em;
+  font-size: 0.9em;
   margin: 0;
   margin-bottom: 0.4rem;
   color: white;
@@ -128,4 +127,57 @@ body {
 
 .cube {
   border-radius: 50px;
+}
+
+.help__container {
+  position: absolute;
+  width: 50%;
+  top: 12%;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: min-content;
+  display: flex;
+  justify-content: center;
+  align-items: left;
+  flex-direction: column;
+  background: #4717f6;
+  margin: 0 auto;
+  font-size: 14px;
+  border-radius: 5px;
+  padding: 0.5rem;
+}
+
+.help__container h2 {
+  color: rgb(255, 255, 255);
+}
+.help__container h4 {
+  color: white;
+  font-size: 1.2em;
+  margin: 0;
+}
+
+.help__container .help__keys,
+.help__cursor {
+  margin: 0;
+}
+
+.close {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  width: 40px;
+  height: 40px;
+  border-radius: 5px;
+  border: 0;
+  outline: 0;
+  font-size: 1.3em;
+  font-weight: bold;
+  background: white;
+  transition: 0.3s;
+}
+
+.close:hover {
+  background-color: #724ef3;
+  color: white;
 }

@@ -9,6 +9,7 @@ const setLocalStorage = (key, value) =>
 export const useStore = create((set) => ({
   texture: "dirt",
   cubes: getLocalStorage("cubes") || [],
+  help: false,
   addCube: (x, y, z) => {
     set((prev) => ({
       cubes: [
@@ -44,6 +45,16 @@ export const useStore = create((set) => ({
   resetWorld: () => {
     set(() => ({
       cubes: [],
+    }));
+  },
+  showHelp: () => {
+    set(() => ({
+      help: true,
+    }));
+  },
+  hiddenHelp: () => {
+    set(() => ({
+      help: false,
     }));
   },
 }));

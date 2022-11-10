@@ -1,9 +1,10 @@
 import { useStore } from "../hooks/useStore";
 
 export const Menu = () => {
-  const [saveWorld, resetWorld] = useStore((state) => [
+  const [saveWorld, resetWorld, showHelp] = useStore((state) => [
     state.saveWorld,
     state.resetWorld,
+    state.showHelp,
   ]);
 
   const reset = () => {
@@ -22,6 +23,11 @@ export const Menu = () => {
       <button onClick={reset}>
         <span>
           <ion-icon name='refresh-outline'></ion-icon>
+        </span>
+      </button>
+      <button onClick={showHelp}>
+        <span>
+          <ion-icon name='help-outline'></ion-icon>
         </span>
       </button>
     </div>
